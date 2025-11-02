@@ -218,8 +218,8 @@ export function ContactSection() {
                                                 animate={{ opacity: 1, y: 0 }}
                                                 exit={{ opacity: 0, y: -10 }}
                                                 className={`p-4 rounded-md flex items-center gap-2 ${status.type === "success"
-                                                        ? "bg-green-500/10 border border-green-500/20 text-green-400"
-                                                        : "bg-red-500/10 border border-red-500/20 text-red-400"
+                                                    ? "bg-green-500/10 border border-green-500/20 text-green-400"
+                                                    : "bg-red-500/10 border border-red-500/20 text-red-400"
                                                     }`}
                                             >
                                                 {status.type === "success" ? (

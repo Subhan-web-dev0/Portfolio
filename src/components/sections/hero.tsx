@@ -39,7 +39,7 @@ export function HeroSection() {
               transition={{ delay: 0.2 }}
               className="text-lg md:text-xl text-primary mb-4 font-medium"
             >
-              Hi, I'm
+              Hi, I&apos;m
             </motion.p>
             
             <motion.h1

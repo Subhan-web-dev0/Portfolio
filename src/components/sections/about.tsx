@@ -54,7 +54,7 @@ export function AboutSection() {
           <Card className="glass border-primary/20 mb-12">
             <CardContent className="p-8 md:p-12">
               <p className="text-lg text-foreground/80 leading-relaxed mb-6">
-                I'm a passionate Front-End Developer specializing in creating
+                I&apos;m a passionate Front-End Developer specializing in creating
                 modern, responsive web applications using cutting-edge
                 technologies. With expertise in React.js, Next.js, and
                 TypeScript, I bring ideas to life through clean, efficient code

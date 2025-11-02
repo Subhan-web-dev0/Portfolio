@@ -61,7 +61,7 @@ export function ContactSection() {
             if (response.status === 200) {
                 setStatus({
                     type: "success",
-                    message: "Thank you for your message! I'll get back to you soon.",
+                    message: "Thank you for your message! I&apos;ll get back to you soon.",
                 })
                 setFormData({ name: "", email: "", message: "" })
 
@@ -107,7 +107,7 @@ export function ContactSection() {
                         <span className="text-gradient">Get In Touch</span>
                     </h2>
                     <p className="text-foreground/60 max-w-2xl mx-auto">
-                        Have a project in mind? Let's work together to bring your ideas to
+                        Have a project in mind? Let&apos;s work together to bring your ideas to
                         life.
                     </p>
                 </motion.div>
@@ -150,7 +150,7 @@ export function ContactSection() {
                         <Card className="glass border-primary/20">
                             <CardContent className="p-6">
                                 <p className="text-foreground/60 text-sm leading-relaxed">
-                                    I'm always open to discussing new projects, creative ideas, or
+                                    I&apos;m always open to discussing new projects, creative ideas, or
                                     opportunities to be part of your visions. Feel free to reach
                                     out through the form or directly via email.
                                 </p>
